@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeCheck</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<style>
+    
+
+ .faqhead{
+  margin-left: 100px;
+  font-weight: 48px;
+  color: rgb(8, 88, 97);
+ 
+}
+
+.faq-text {
+  font-family: Open Sans;   
+  font-weight: 400;
+  color: #919191;
+  width:95%;
+  padding-left:20px;
+  
+  margin-bottom:30px;
+}
+
+.faq {
+  width: 813px;
+  height: 49px;
+  font-size: 20px;
+ margin-left: 100px;
+  background: rgb(204, 249, 219);
+  border-radius: 4px;
+  position: relative;
+  border: 1px solid rgb(13, 98, 109);;
+}
+
+.faq img{float: left;
+margin-top: -10px;
+margin-right: 20px;}
+.faq label {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 56px;
+  padding-top:1px;
+ 
+  background: rgb(204, 249, 219);
+  border-bottom: 1px solid rgb(13, 98, 109);;
+}
+
+.faq input[type="checkbox"] {
+  display: none;
+}
+
+.faq .faq-arrow {
+  width: 18px;
+  height: 18px;
+  color: black;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  border-top: 2px solid rgba(0, 0, 0, 0.33);
+  border-right: 2px solid rgba(0, 0, 0, 0.33);
+  float: right;
+  position: relative;
+  top: -30px;
+  right: 27px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(-45deg);
+}
+
+ .faq input[type="checkbox"]:checked + label > .faq-arrow {
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+ .faq input[type="checkbox"]:checked + label {
+  display: block;
+  background: rgba(255,255,255,255) !important;
+  color: #4f7351;
+  height: 225px;
+  transition: height 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+ .faq input[type='checkbox']:not(:checked) + label {
+  display: block;
+  transition: height 0.8s;
+  height: 60px;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+</style>
+<body>
+  <div class="upnavbar">
+    <div class="connect">
+      <p>
+        connect with us:
+        <a href=""> <img src="./evaFacebookFill0.png" alt="" /></a><a href=""> <img src="./t.png" alt="" /></a>
+        <a href=""><img src="./in.png" alt="" /></a>
+        <a href=""><img src="./what.png" alt="" /></a>
+      </p>
+    </div>
+    <div class="travel">
+      <p>
+        <b> Travel with safety!</b><span>Have your PCR Test done at home.</span>
+        <a href=""><img src="./clarity_email-solid.png" alt=""> hello@lifecheck.com</a>
+        <a style="padding-left: 30px;color: red;" href="" 
+       ><img style="margin-right: 10px;" src="./Vectoreme.png" alt=""> Emergency</a>
+      </p>
+    </div>
+  </div>
+  <div class="navbar">
+    <div class="logo">
+      <img src="./Screenshot__60__-_Copy-removebg-preview 2.png" alt="logo" />
+      <p>
+        LIFE <br />
+        CHECK
+      </p>
+    </div>
+    <div class="menu">
+      <ul>
+        <li class="dropdown">
+          <button class="dropbtn"><b style="color: white">HOME</b></button>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn"><b>SERVICE</b></button>
+          <div class="dropdown-content">
+            <a href="./virtuallabtest.html">Virtual</a>
+            <a href="./labtest1.html">Mobile Laboratories</a>
+            <a href="./labtest.html">Doctor's Appointment</a>
+            <a href="./general.html">Med Management</a>
+            <a href="./health chart.html">e-Health Records</a>
+            <a href="./symptomschecker.html">Symptoms Checker</a>
+            <a href="./Covid.html">Emergency Services</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn"><b>DOCTOR</b></button>
+          <div class="dropdown-content">
+            <a href="./dental.html">Dental Surgeon</a>
+            <a href="./cardiology.html">Cardiologist</a>
+            <a href="./dermatology.html">Dermatologist</a>
+            <a href="./piadetrics.html">Paediatrician</a>
+            <a href="./breast cancer.html">Oncologist</a>
+            <a href="./ganycology.html">Gynecologist</a>
+            <a href="./PHYSIOTERAPIST.html">Physiotherapist</a>
+            <a href="./neurology.html">Neurologist</a>
+            <a href="./geriatric.html">Geriatrician</a>
+            <a href="./ENT SPECIAL.html">Paediatric E.N.T</a>
+            <a href="./general physician.html">General Physician</a>
+            <a href="./general surgery.html">General Surgeon</a>
+
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <button class="dropbtn"><a href="#review">REVIEWS</a></button>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn" style="width: 200px;margin-left: 40px; color: rgb(16, 238, 16)">
+            <b>PATIENT PORTAL</b>
+          </button>
+          <div class="dropdown-content" style="margin-left: 70px;">
+            <a href="./pantientportal1.html">
+              <img src="./Group 717.png" alt="" style="padding-right: 10px;"> My Profile</a>
+            <a href="./woman sub healthtest.html">
+              <img src="./cally.png" alt="" style="padding-right: 10px;"> My Health Record</a>
+          </div>
+        </li>
+
+        <a href="./profile login.html">LOGIN</a>
+
+        <li style="margin-top: -1.5%; margin-left: 80%">
+          <a href="./dental.html" style="
+                background-color: rgb(16, 238, 16);
+                padding: 10px 20px;
+                border-radius: 16px;
+              ">Book Appointment</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <img src="./Group 3671.png" alt="" style="float: right;
+  margin-right: 25px;margin-top: 30px;">
+
+  <div class="faqhead">
+    <h1>F A Qs</h1>
+  <p>Find answers to commonly asked questions about LifeCheck</p>
+  </div>
+    <div class='faq'>
+        <input id='faq-a' type='checkbox'>
+        <label for='faq-a'>
+          <p class="faq-heading"><img src="./image 26.png" alt=""> How should I book an appointment for a lab test/Health Checkup?</p>
+          <div class='faq-arrow'></div>
+            <p class="faq-text">You can book an appointment by choosing your 
+              city and package, confirm date and time for sample collection, 
+              input your contact details and make payment</p>
+        </label>
+        <input id='faq-b' type='checkbox'>
+        <label for='faq-b'>
+          <p class="faq-heading"><img src="./image 26.png" alt=""> How many days in advance do i need to book an appointment?</p>
+          <div class='faq-arrow'></div>
+            <p class="faq-text">This depend on the availability of the diagnostic centres. 
+              During periods of high demand, the slots may not be available for atleast 2 days from the 
+              booking date.</p>
+        </label>
+        <input id='faq-c' type='checkbox'>
+        <label for='faq-c'>
+          <p class="faq-heading"><img src="./image 30.png" alt=""> Can an appointment be rescheduled?</p>
+          <div class='faq-arrow'></div>
+            <p class="faq-text">Yes, by selecting appointment reschedule. you will be required to make payment
+              minimum of 48hours before the new appointment schedule.
+            </p>
+        </label>
+        <input id='faq-d' type='checkbox'>
+        <label for='faq-d'>
+          <p class="faq-heading"><img src="./image 30.png" alt="">Can an appointment be cancelled?</p>
+          <div class='faq-arrow'></div>
+            <p class="faq-text">Yes, you can. Please note that you cannot cancel appointment 12hours before the appointment
+              time. If you do, you will forfiet payment.
+            </p>
+        </label>
+        <input id='faq-e' type='checkbox'>
+        <label for='faq-e'>
+          <p class="faq-heading"><img src="./image 32.png" alt=""> When will i recieve my Health Checkup report?</p>
+          <div class='faq-arrow'></div>
+            <p class="faq-text">Your health report shall be 
+              availablefor download within 48hours maximum. Select patient portal and click on your health record to viewport,
+            share and download</p>
+        </label>
+        <input id='faq-f' type='checkbox'>
+        <label for='faq-f'>
+          <p class="faq-heading"><img src="./image 26.png" alt=""> Are any documents required to undergo Health Checkup via LifeCheck?</p>
+          <div class='faq-arrow'></div>
+            <p class="faq-text">Your health checkup report shall be available for download within 48 hours max. 
+              Select patient portal and click on your health record to view, share and download.</p>
+        </label>
+        <input id='faq-g' type='checkbox'>
+        <label for='faq-g'>
+          <p class="faq-heading"><img src="./image 32.png" alt=""> What should I do before a Health Checkup?</p>
+          <div class='faq-arrow'></div>
+            <p class="faq-text">Fast overnight for 12 hours before the appointment, avoid smoking or consuming 
+              alcohol for a minimum of 24 hours before appointment, carry urine & stool sample 
+              in a sterilized container obtainable from the nearest pharmacy.</p>
+        </label>
+        
+         </div>
+</body>
+</html>

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeCheck</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<style>
+    
+
+ .faqhead{
+  margin-left: 100px;
+  font-weight: 48px;
+  color: rgb(8, 88, 97);
+ 
+}
+
+.faq-text {
+  font-family: Open Sans;   
+  font-weight: 400;
+  color: black;
+  font-size: 28px;
+  width:95%;
+  padding-left:20px;
+  height: 1000px;
+  margin-bottom:30px;
+}
+
+.faq {
+  width: 1050px;
+  height: 300px;
+  font-size: 20px;
+ margin-left: 200px;
+  background: white;
+  border-radius: 4px;
+  position: relative;
+  color: black;
+}
+
+.faq a{color: black;
+font-size: 32px;}
+
+.faq img{float: left;
+margin-top: -10px;
+margin-right: 20px;}
+.faq label {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  height: 56px;
+  padding-top:1px;
+ 
+  background: white;
+  border-bottom: 1px solid white;
+}
+
+.faq input[type="checkbox"] {
+  display: none;
+}
+
+.faq .faq-arrow {
+  width: 18px;
+  height: 18px;
+  color: black;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  border-top: 2px solid rgba(0, 0, 0, 0.33);
+  border-right: 2px solid rgba(0, 0, 0, 0.33);
+  float: right;
+  position: relative;
+  top: -30px;
+  right: 27px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(-45deg);
+}
+
+ .faq input[type="checkbox"]:checked + label > .faq-arrow {
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+ .faq input[type="checkbox"]:checked + label {
+  display: block;
+  color: black;
+  background: rgba(255,255,255,255) !important;
+  color:white;
+  height: 550px;
+  border-bottom: 2px solid gray;
+  transition: height 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+ .faq input[type='checkbox']:not(:checked) + label {
+  display: block;
+  transition: height 0.8s;
+  height: 60px;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+</style>
+<body>
+  <div class="upnavbar">
+    <div class="connect">
+      <p>
+        connect with us:
+        <a href=""> <img src="./evaFacebookFill0.png" alt="" /></a><a href=""> <img src="./t.png" alt="" /></a>
+        <a href=""><img src="./in.png" alt="" /></a>
+        <a href=""><img src="./what.png" alt="" /></a>
+      </p>
+    </div>
+    <div class="travel">
+      <p>
+        <b> Travel with safety!</b><span>Have your PCR Test done at home.</span>
+        <a href=""><img src="./clarity_email-solid.png" alt=""> hello@lifecheck.com</a>
+        <a style="padding-left: 30px;color: red;" href="" 
+       ><img style="margin-right: 10px;" src="./Vectoreme.png" alt=""> Emergency</a>
+      </p>
+    </div>
+  </div>
+  <div class="navbar">
+    <div class="logo">
+      <img src="./Screenshot__60__-_Copy-removebg-preview 2.png" alt="logo" />
+      <p>
+        LIFE <br />
+        CHECK
+      </p>
+    </div>
+    <div class="menu">
+      <ul>
+        <li class="dropdown">
+          <button class="dropbtn"><b style="color: white">
+            <a href="/index.html" style="text-decoration: none;">HOME</a></b></button>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn"><b>SERVICE</b></button>
+          <div class="dropdown-content">
+            <a href="./virtuallabtest.html">Virtual</a>
+            <a href="./labtest1.html">Mobile Laboratories</a>
+            <a href="./labtest.html">Doctor's Appointment</a>
+            <a href="./general.html">Med Management</a>
+            <a href="./health chart.html">e-Health Records</a>
+            <a href="./symptomschecker.html">Symptoms Checker</a>
+            <a href="./Covid.html">Emergency Services</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn"><b>DOCTOR</b></button>
+          <div class="dropdown-content">
+            <a href="./dental.html">Dental Surgeon</a>
+            <a href="./cardiology.html">Cardiologist</a>
+            <a href="./dermatology.html">Dermatologist</a>
+            <a href="./piadetrics.html">Paediatrician</a>
+            <a href="./breast cancer.html">Oncologist</a>
+            <a href="./ganycology.html">Gynecologist</a>
+            <a href="./PHYSIOTERAPIST.html">Physiotherapist</a>
+            <a href="./neurology.html">Neurologist</a>
+            <a href="./geriatric.html">Geriatrician</a>
+            <a href="./ENT SPECIAL.html">Paediatric E.N.T</a>
+            <a href="./general physician.html">General Physician</a>
+            <a href="./general surgery.html">General Surgeon</a>
+
+          </div>
+        </li>
+
+        <li class="dropdown">
+          <button class="dropbtn"><a href="#review">REVIEWS</a></button>
+        </li>
+        <li class="dropdown">
+          <button class="dropbtn" style="width: 200px;margin-left: 40px; color: rgb(16, 238, 16)">
+            <b>PATIENT PORTAL</b>
+          </button>
+          <div class="dropdown-content" style="margin-left: 70px;">
+            <a href="./pantientportal1.html">
+              <img src="./Group 717.png" alt="" style="padding-right: 10px;"> My Profile</a>
+            <a href="./woman sub healthtest.html">
+              <img src="./cally.png" alt="" style="padding-right: 10px;"> My Health Record</a>
+          </div>
+        </li>
+
+        <a href="./profile login.html">LOGIN</a>
+
+        <li style="margin-top: -1.5%; margin-left: 80%">
+          <a href="./dental.html" style="
+                background-color: rgb(16, 238, 16);
+                padding: 10px 20px;
+                border-radius: 16px;
+              ">Book Appointment</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="checkline">
+    <h2>
+    Symptoms Checker</h2>
+    <a href=""><img src="./Group 3312.png" alt=""></a>
+    <a href="./symptomschecker 2.html"><img src="./SYMP.png" alt=""></a>
+    <a href="./symptomschecker3.html"><img src="./shape.png" alt=""></a>
+  </div>
+  <main class="checker" style="margin-left: 200px;">
+    <h3>Abdominal Pain in Adults</h3>
+    <p>These diseases and conditions match at least one of the factors <br>
+      you selected. Those with most matches are listed.</p></main>
+    <div class='faq'>
+        <input id='faq-a' type='checkbox'>
+        <label for='faq-a'>
+          <p class="faq-heading"><a href="">Peptic Ulcer</a>
+          </p><a id="changejs" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is burning <br>
+              Pain is located in abdomen but radiates to other parts of the body <br>
+              Relieved by Antacids <br>
+              Pain is ongoing (chronic) <br>
+              Pain is gwaning <br>
+              Pain is intermittent or episodic <br>
+              Pain is worsening or progressing <br>
+              Triggered or worsened by drinking alcohol <br>
+              Triggered or worsened by eating certain foods <br>
+              Triggered or worsened by stress <br>
+              Relieved by eating certain foods <br>
+              Accompanied by block or bloody stools <br>
+              Accompanied by nausea or vomitting</p>
+        </label>
+        <input id='faq-b' type='checkbox'>
+        <label for='faq-b'>
+          <p class="faq-heading"><a href="">Appendicitis</a>
+          </p><a id="changejs1" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise1()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Triggered or worsened by coughing or other jarring movements <br>
+Pain is accompanied by abdominal swelling <br>
+Pain is sudden (acute) <br>
+Pain is crampy <br>
+Pain is dull <br>
+Pain is intense <br>
+Pain is sharp <br>
+Pain is steady <br>
+Pain is located in lower abdomen <br>
+Pain is on one or both sides <br>
+Accompanied by constipation <br>
+Accompanied by fever <br>
+Accompanied by diarrhea <br>
+Accompanied by nausea or vomitting</p>
+        </label>
+        <input id='faq-c' type='checkbox'>
+        <label for='faq-c'>
+          <p class="faq-heading"><a href="">Gastritis</a>
+          </p><a id="changejs2" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise2()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is burning <br>
+              Pain is accompanied by abdominal swelling <br>
+              Pain is ongoing (chronic) <br>
+              Pain is gwaning <br>
+              Pain is intermittent or episodic <br>
+              Pain is steady <br>
+              Pain is located in middle abdomen <br>
+              Pain is located in upper abdomen <br>
+              Triggered or worsened by drinking alcohol <br>
+              Triggered or worsened by eating certain food <br>
+              Accompanied by nausea or vomitting <br>
+              Accompanied by unintended weight loss</p>
+        </label>
+        <input id='faq-d' type='checkbox'>
+        <label for='faq-d'>
+          <p class="faq-heading"><a href="">Functional Dyspepsia</a>
+          </p><a id="changejs3" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise3()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is burning <br>
+              Relieved by antacids <br>
+              Pain is ongoing (chronic) <br>
+              Pain is gwaning <br>
+              Pain is located in upper abdomen <br>
+              Triggered or worsened by stress <br>
+              Relieved by eating certain food <br>
+              Accompanied by nausea or vomitting <br>
+              Accompanied by passing gas</p>
+        </label>
+        <input id='faq-e' type='checkbox'>
+        <label for='faq-e'>
+          <p class="faq-heading"><a href="">Abdominal aortic aneurysm</a>
+          </p><a id="changejs4" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise4()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is located in abdomen but radiates to other parts of the body <br>
+              Pain is located in middle abdomen <br>
+              Accompanied by pulsing sensation in the navel</p>
+        </label>
+        <input id='faq-f' type='checkbox'>
+        <label for='faq-f'>
+          <p class="faq-heading"><a href="">Celiac Disease</a>
+          </p><a id="changejs5" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise5()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is crampy <br>
+Relieved by antacids <br>
+Pain is ongoing (chronic) <br>
+Pain is gwaning <br>
+Triggered or worsened by eating certain foods <br>
+Triggered or worsened by stress <br>
+Accompanied by diarrhea <br>
+Accompanied by nausea or vomitting <br>
+Accompanied by rash <br>
+Accompanied by stomach growling or rumbling <br>
+Accompanied by unintended weight loss</p>
+        </label>
+        <input id='faq-g' type='checkbox'>
+        <label for='faq-g'>
+          <p class="faq-heading"><a href="">Cholecystisis</a>
+          </p><a id="changejs6" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise6()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is located in abdomen but radiates to other parts of the body <br>
+              Pain is crampy <br>
+              Pain is intense <br>
+              Pain is intermittent or episodic <br>
+              Pain is steady <br>
+              Pain is located in upper abdomen <br>
+              Accompanied by fever <br>
+              Accompanied by nausea or vomitting</p>
+        </label>
+        <input id='faq-h' type='checkbox'>
+        <label for='faq-h'>
+          <p class="faq-heading"><a href="">Crohn’s Disease</a>
+          </p><a id="changejs7" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise7()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is crampy <br>
+Pain is dull <br>
+Pain is ongoing (chronic) <br>
+Pain is gwaning <br>
+Pain is intermittent or episodic <br>
+Accompanied by block or bloody stool <br>
+Accompanied by diarrhea <br>
+Accompanied by nausea or vomitting <br>
+Accompanied by rash <br>
+Accompanied by stomach growling or rumbling <br>
+Accompanied by unintended weight loss</p>
+        </label>
+        <input id='faq-i' type='checkbox'>
+        <label for='faq-i'>
+          <p class="faq-heading"><a href="">Diverticulitis</a>
+          </p><a id="changejs8" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise8()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Triggered or worsened by coughing or other jarring movements <br>
+Pain is crampy <br>
+Pain is sudden (acute) <br>
+Pain is sharp <br>
+Pain is steady <br>
+Accompanied by constipation <br>
+Accompanied by diarrhea <br>
+Accompanied by fever <br>
+Accompanied by nausea or vomitting</p>
+        </label>
+        <input id='faq-j' type='checkbox'>
+        <label for='faq-j'>
+          <p class="faq-heading"><a href="">Food poisoning</a>
+          </p><a id="changejs9" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise9()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Accompanied by abdominal swelling <br>
+              Pain is crampy <br>
+              Pain is sudden (acute) <br>
+              Triggered or worsened by eating certain food <br>
+              Accompanied by diarrhea <br>
+              Accompanied by fever <br>
+              Accompanied by nausea or vomitting</p>
+        </label>
+        <input id='faq-k' type='checkbox'>
+        <label for='faq-k'>
+          <p class="faq-heading"><a href="">Gallstones</a>
+          </p><a id="changejs10" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise10()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is located in abdomen but radiates to other parts of the body <br>
+              Pain is located in the middle abdomen <br>
+              Pain is intense <br>
+              Pain is intermittent or episodic <br>
+              Pain is steady <br>
+              Pain is located in upper abdomen <br>
+              Triggered or worsened by eating certain food  <br>
+              Accompanied by fever <br>
+              Accompanied by nausea or vomitting</p>
+        </label>
+        <input id='faq-l' type='checkbox'>
+        <label for='faq-l'>
+          <p class="faq-heading"><a href="">Intestinal Obstruction</a>
+          </p><a id="changejs11" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise11()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Accompanied by abdominal swelling <br>
+              Pain is crampy <br>
+              Pain is sudden (acute) <br>
+              Pain is intermittent or episodic <br>
+              Pain is steady <br>
+              Triggered or worsened by eating certain food <br>
+              Accompanied by constipation <br>
+              Accompanied by nausea or vomitting</p>
+        </label>
+        <input id='faq-m' type='checkbox'>
+        <label for='faq-m'>
+          <p class="faq-heading"><a href="">Irritable Bowel Syndrome</a>
+          </p><a id="changejs12" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise12()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Accompanied by abdominal swelling <br>
+              Pain is crampy <br>
+              Pain is ongoing (chronic) <br>
+              Pain is intermittent or episodic <br>
+              Pain is steady <br>
+              Triggered or worsened by eating certain food <br>
+              Triggered or worsened by stress <br>
+              Accompanied by constipation <br>
+              Accompanied by passing gas <br>
+              Accompanied by diarrhea</p>
+        </label>
+        <input id='faq-n' type='checkbox'>
+        <label for='faq-n'>
+          <p class="faq-heading"><a href="">Kidney Stones</a>
+          </p><a id="changejs13" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise13()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is located in abdomen but radiates to other parts of the  <br>
+Pain is sudden (acute) <br>
+Pain is intense <br>
+Pain is located in one or both sides <br>
+Accompanied by nausea or vomitting</p>
+        </label>
+        <input id='faq-o' type='checkbox'>
+        <label for='faq-o'>
+          <p class="faq-heading"><a href="">Menstrual Cramps</a>
+          </p><a id="changejs14" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise14()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is located in abdomen but radiates to other parts of the body <br>
+Pain is crampy <br>
+Pain is dull <br>
+Pain is intermittent or episodic <br>
+Triggered or worsened by menstrual cycle</p>
+        </label>
+        <input id='faq-p' type='checkbox'>
+        <label for='faq-p'>
+          <p class="faq-heading"><a href="">Pancreatitis</a>
+          </p><a id="changejs15" href="" style="margin-top: -55px;background-color: white;
+          margin-left: 650px;position: absolute; height: 32px;"> 
+            <label for="" style="height: 32px;text-decoration: underline;">See associated factors</label></a>
+          <div class='faq-arrow'
+           onclick="bamise15()" style="margin-top: -10px;"></div>
+            <p class="faq-text">
+              Pain is located in abdomen but radiates to other parts of the body <br>
+Pain is sudden (acute) <br>
+Pain is intense <br>
+Pain is sharp <br>
+Pain is steady <br>
+Pain is located in upper andomen <br>
+Triggered by eating certain food <br>
+Relieved by changing position <br>
+Accompanied by nausea or vomitting</p>
+        </label>
+         </div>
+
+         <a href=""
+         style="background-color: black;
+         color: white;
+         padding: 20px 40px;
+         margin-left:200px;
+         margin-top: 700px;
+         text-decoration: none;
+         border-radius: 20px;
+         position: absolute;">Book Appointment</a>    
+         
+         <a href=""
+         style="background-color: black;
+         color: white;
+         padding: 20px 40px;
+         margin-left:800px;
+         margin-top: 700px;
+         text-decoration: none;
+         border-radius: 20px;
+         position: absolute;">Virtual Consultation</a>
+</body>
+<script src="./mystyle.js"></script>
+</html>
